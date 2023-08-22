@@ -1,0 +1,197 @@
+* {
+     /*background: rgba(1, 218, 1, 0.1) !important;
+     */
+     margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p {
+     font-family: 'Calibri', 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+     letter-spacing: 0.01rem;
+     line-height: 1.2rem;
+     color: black;
+}
+
+h3 {
+     letter-spacing: 0.4rem;
+     font-size: 1.1rem;
+}
+
+h4 {
+     font-weight: 600;
+     font-size: 1.05rem;
+}
+
+p {
+     font-size: 1.1rem;
+}
+
+body {
+     overflow: hidden;
+}
+
+.index__container{
+     max-width: 80rem;
+     margin: auto;
+     left: 0;
+     right: 0;
+}
+
+.index__header{
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+     gap: 0.5rem;
+     justify-items: center;
+     padding: 2rem;
+}
+
+.index__main{
+     display: grid;
+     grid-template-columns: 1fr 3fr;
+     gap: 5rem;
+     overflow: hidden;
+     height: 85vh;
+}
+
+.main__left{
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+     gap: 2rem
+}
+
+.left__section{
+     display: flex;
+     flex-direction: column;
+     gap: 0.7rem;
+}
+
+.section__title{
+     font-size: 1.2rem;
+}
+
+.left__sectionContentContainer{
+     margin-top: -0.5rem;
+     display: flex;
+     flex-direction: column;
+     gap: 0.5rem
+}
+
+.left__sectionContent {
+     display: flex;
+     flex-direction: column;
+     gap: 0.1rem;
+}
+
+.left__sectionContentDetail {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 0.4rem
+}
+
+.left__sectionContentInfo {
+     font-size: 1rem;
+     font-style: italic;
+     margin-bottom: 0.2rem;
+     width: fit-content;
+}
+
+.p__custom{
+     font-size: 1rem;
+     line-height: 1rem;
+     margin-left: 1rem;
+     cursor: default;
+     width: fit-content;
+}
+
+.p__customDisabled {
+     font-size: 1rem;
+     line-height: 1rem;
+     margin-left: 1rem;
+     cursor: default;
+     color: lightgrey;
+     width: fit-content;
+}
+
+.main__right{
+     /*outline: 1px solid blue;
+     */display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     flex: 2;
+     overflow-y: scroll;
+}
+
+.main__right::-webkit-scrollbar { width: 0 !important }
+
+.right__section{
+     display: flex;
+     flex-direction: column;
+}
+
+.right__sectionContentContainer {
+     margin-top: 0.5rem;
+     display: flex;
+     flex-direction: column;
+     gap: 1.5rem;
+}
+
+.right__sectionContentDisabled *{
+     color: lightgrey;
+}
+
+.right__sectionContent {
+     display: flex;
+     flex-direction: column;
+     cursor: default;
+     width: fit-content;
+}
+
+.right__sectionContentTitle {
+     font-size: 1.2rem;
+}
+
+.right__sectionContentInfo {
+     font-size: 1rem;
+     font-style: italic;
+     margin-bottom: 0.2rem;
+}
+
+.right__sectionContentDetailContainer {
+     display: flex;
+     flex-direction: row;
+}
+
+.right__sectionContentDetail {
+     line-height: 1.3rem;
+     margin-left: 1rem;
+}
+
+.right__sectionContentLink {
+     line-height: 1.3rem;
+     margin-left: 1rem;
+}
+
+.right__sectionContentLink > a {
+     text-decoration: none;
+}
+
+.title1 {
+     position: sticky;
+     top: 0rem;
+     width: 100%;
+     background-color: white;
+}
+
+.title2 {
+     margin-top: 2rem;
+     position: sticky;
+     top: 1rem;
+     width: 100%;
+     background-color: white;
+}

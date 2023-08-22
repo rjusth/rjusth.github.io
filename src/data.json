@@ -1,0 +1,173 @@
+{
+     "intro": {
+          "name": "Justin Halim",
+          "title": "Automation Engineer",
+          "summary": "Experienced Automation Engineer with a demonstrated history of working in the computer hardware industry. Skilled in VBA"
+     },
+
+     "contact": {
+          "content": [
+               {"value": "heyjustin@gmail.com"},
+               {"value": "Bay Area, CA, USA"},
+               {"value": "www.justin.com"}
+          ]
+     },
+     
+     "education": {
+          "content": [
+               {
+                    "title": "B.S. Mechanical Engineering, Minor in Computer Science",
+                    "where": "San Jose State University",
+                    "when": "2013 - 2016"
+               }
+          ]
+     },
+
+     "expertise": [
+          {
+               "type": "Software",
+               "content": [
+                    "Graphical Programming",
+                    "Python",
+                    "JavaScript",
+                    "VBA",
+                    "React",
+                    "React Context API",
+                    "Google API",
+                    "Node.js",
+                    "SQL",
+                    "SolidWorks",
+                    "Arduino"
+               ]
+          },
+
+          {
+               "type": "Hardware",
+               "content": [
+                    "Mill",
+                    "Lathe",
+                    "Sheet Metal Forming",
+                    "Solder"
+               ]
+          },
+
+          {
+               "type": "Soft skills",
+               "content": [
+                    "Adaptable",
+                    "Attentive listener",
+                    "Creative",
+                    "Critical thinker",
+                    "Curious",
+                    "Detail oriented",
+                    "Problem solver",
+                    "Resourceful",
+                    "Team player"
+               ]
+          },
+
+          {
+               "type": "Language",
+               "content": [
+                    "English",
+                    "Indonesian"
+               ]
+          }
+     ],
+
+     "activity": [
+          {
+               "title": "Vice President of Indonesian Student Organization",
+               "where": "De Anza College",
+               "when": "2011 - 2012",
+               "task": [
+                    "Initiated and managed various activities to enhance relations between students and grow community."
+               ],
+               "tag": ["Attentive listener", "Creative", "Resourceful", "Team player", "English", "Indonesian"]
+          }
+     ],
+
+     "experience": [
+          {
+               "title": "Automation Engineer",
+               "where": "TDK Headway Technologies",
+               "when": "2017 - Present",
+               "task": [
+                    "Research, design, and prototype an application for Industrial Internet of Things.",
+                    "Develop, maintain, troubleshoot, and improve fault detection models for semiconductor equipment.",
+                    "Collect, analyze, validate and create reports of equipment data for engineering and production teams.",
+                    "Collaborates with other engineering teams to develop systems for improving equipment performance, production capabilities, and manufacturing efficiency."
+               ],
+               "tag": ["Graphical Programming", "VBA", "SQL",  "Python", "Adaptable", "Attentive listener", "Critical thinker", "Curious", "Creative", "Detail oriented", "Problem solver", "Resourceful", "Team player", "English"]
+          },
+          {
+               "title": "Front End Project - Resume",
+               "where": "Milpitas",
+               "when": "2022 - Present",
+               "task": [
+                    "Designed a web page for personal resume to demonstrate understanding of a web application."
+               ],
+               "link": "tobeaddedlater.justin.com",
+               "tag": ["JavaScript", "React", "Gatsby", "Creative", "English"]
+          },
+          {
+               "title": "Front End Project - Deliveries",
+               "where": "Milpitas",
+               "when": "2021 - Present",
+               "task": [
+                    "Designed and developed a web application for a delivery service.",
+                    "Personal project to demonstrate understanding of a web application."
+               ],
+               "link": "tobeaddedlater.justin.com",
+               "tag": ["JavaScript", "React", "React Context API", "Node.js",  "Google API", "Curious", "Creative", "Detail oriented", "Problem solver", "Resourceful", "English"]
+          },
+          {
+               "title": "Research Assistant Mechanical Engineer - Plug-in Hybrid Electric Vehicle Energy Optimization",
+               "where": "San Jose State University Research",
+               "when": "2016",
+               "task": [
+                    "Developed a workbench to test, collect and analyze PHEV energy consumption."
+               ],
+               "tag": ["SolidWorks", "Attentive listener", "Critical thinker", "Curious", "Detail oriented", "Resourceful", "English"]
+          },
+          {
+               "title": "Mechanical Engineer",
+               "where": "San Jose State University Robotics",
+               "when": "2015 - 2016",
+               "task": [
+                    "Designed a mechanical arm system and collaborated with students from different engineering disciplinary building a complete rover to compete in the University Rover Challenge 2016."
+               ],
+               "tag": ["SolidWorks", "Attentive listener", "Creative", "Critical thinker", "Curious", "Detail oriented", "Resourceful", "Team player", "English"]
+          },
+          {
+               "title": "Mechatronics Engineer - Stroke Rehabilitation Robot",
+               "where": "San Jose State University",
+               "when": "2015 - 2016",
+               "task": [
+                    "A team of seven people. Programmed, interfaced, and troubleshot brainwaves headset with a six axis robot."
+               ],
+               "link": "https://www.youtube.com/watch?v=WwN1tynjlzw",
+               "tag": ["SolidWorks", "Arduino", "Attentive listener", "Creative", "Curious", "Critical thinker", "Detail oriented", "Problem solver", "Resourceful", "Team player", "Mill", "Lathe", "English"]
+          },
+          {
+               "title": "Mechanical Engineer - Automatic Car Sun Visor",
+               "where": "San Jose State University",
+               "when": "2014",
+               "task": [
+                    "A team of five people. Designed mechanism, created software, and interfaced hardware and software."
+               ],
+               "link": "https://www.youtube.com/watch?v=e6WPMAVuSKY",
+               "tag": ["SolidWorks", "Arduino", "Attentive listener", "Creative", "Curious", "Critical thinker", "Detail oriented", "Problem solver", "Resourceful", "Team player", "English"]
+          },
+          {
+               "title": "Mechatronics Engineer - Autonomous Mine Detection Drone",
+               "where": "San Jose State University",
+               "when": "2014",
+               "task": [
+                    "A team of two people. Built hardware, created software, and implemented them for the complete product."
+               ],
+               "link": "https://www.youtube.com/watch?v=ow5IVyX4Cw8",
+               "tag": ["SolidWorks", "Arduino", "Attentive listener", "Creative", "Curious", "Critical thinker", "Detail oriented", "Problem solver", "Resourceful", "Team player", "English"]
+          }
+     ]
+}
