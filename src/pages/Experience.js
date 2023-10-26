@@ -6,8 +6,7 @@ function Experience({experience, filters, checkHandleHoverEnter, checkHandleHove
      const [inFilter, setInFilter] = useState(false)
      const [onMouseEnterArea, setOnMouseEnterArea] = useState(false)
 
-     if (experience) {
-          const tags = experience.tag
+     const tags = experience.tag
 
      const checkFilter = () => {
           if (filters.length === 0) {
@@ -58,7 +57,6 @@ function Experience({experience, filters, checkHandleHoverEnter, checkHandleHove
                }
           </div>
      )
-          }
 }
 
 export default Experience
