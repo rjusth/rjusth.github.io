@@ -6,7 +6,7 @@ function Experience({experience, filters, checkHandleHoverEnter, checkHandleHove
      const [inFilter, setInFilter] = useState(false)
      const [onMouseEnterArea, setOnMouseEnterArea] = useState(false)
 
-     const tags = experience.tag
+     const tags = experience? experience.tag : []
 
      const checkFilter = () => {
           if (filters.length === 0) {
@@ -37,6 +37,7 @@ function Experience({experience, filters, checkHandleHoverEnter, checkHandleHove
 
 
      return (
+          experience?
           <div className={inFilter || onMouseEnterArea? 'right__sectionContent' : 'right__sectionContentDisabled'}
                onMouseEnter={() => {checkHandleHoverEnter(tags); setOnMouseEnterArea(true)}} 
                onMouseLeave={() => {checkHandleHoverLeave(); ; setOnMouseEnterArea(false)}}>
@@ -56,6 +57,7 @@ function Experience({experience, filters, checkHandleHoverEnter, checkHandleHove
                     :null
                }
           </div>
+          :null
      )
 }
 
