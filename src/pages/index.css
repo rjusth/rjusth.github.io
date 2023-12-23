@@ -32,15 +32,18 @@ p {
 }
 
 body {
-     overflow: hidden;
+     overflow-y: scroll;
 }
 
+.body::-webkit-scrollbar { width: 0 !important }
+
 .index__container{
-     max-width: 80rem;
+     max-width: 80vw;
      margin: auto;
-     left: 0;
-     right: 0;
+     overflow-y: scroll
 }
+
+.index__container::-webkit-scrollbar { width: 0 !important }
 
 .index__header{
      display: grid;
@@ -54,9 +57,11 @@ body {
      display: grid;
      grid-template-columns: 1fr 3fr;
      gap: 5rem;
-     overflow: hidden;
+     overflow-y: scroll;
      height: 85vh;
 }
+
+.index__main::-webkit-scrollbar { width: 0 !important }
 
 .main__left{
      display: flex;
@@ -119,8 +124,7 @@ body {
 }
 
 .main__right{
-     /*outline: 1px solid blue;
-     */display: flex;
+     display: flex;
      flex-direction: column;
      gap: 2rem;
      flex: 2;
