@@ -59,6 +59,7 @@ body {
      gap: 5rem;
      overflow-y: scroll;
      height: 85vh;
+     margin-bottom: 20px;
 }
 
 .index__main::-webkit-scrollbar { width: 0 !important }

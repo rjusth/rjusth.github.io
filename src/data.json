@@ -37,7 +37,10 @@
                     "Node.js",
                     "SQL",
                     "SolidWorks",
-                    "Arduino"
+                    "Arduino", "Jenkins (CI/CD)", "JIRA",
+                    "Git", "Java", "RESTful API", "C++",
+                    "Object Oriented Design", "Linux", "HTML",
+                    "CSS", "AutoShell"
                ]
           },
 
@@ -52,7 +55,7 @@
           },
 
           {
-               "type": "Soft skills",
+               "type": "Interpersonal",
                "content": [
                     "Adaptable",
                     "Attentive listener",
@@ -62,7 +65,8 @@
                     "Detail oriented",
                     "Problem solver",
                     "Resourceful",
-                    "Team player"
+                    "Team player",
+                    "Proactive"
                ]
           },
 
@@ -90,13 +94,26 @@
      "experience": [
           {
                "title": "Automation Engineer",
-               "where": "TDK Headway Technologies",
-               "when": "2017 - Present",
+               "where": "Acubed",
+               "when": "2022 - 2023",
                "task": [
-                    "Research, design, and prototype an application for Industrial Internet of Things.",
-                    "Develop, maintain, troubleshoot, and improve fault detection models for semiconductor equipment.",
-                    "Collect, analyze, validate and create reports of equipment data for engineering and production teams.",
-                    "Collaborates with other engineering teams to develop systems for improving equipment performance, production capabilities, and manufacturing efficiency."
+                    "Collaborated with engineering teams to capture engineering process requirements for application development and improvement",
+                    "Facilitated communication between application users and developers, ensuring quick identification of application pain points and a thorough understanding of the most crucial features to prioritize in development",
+                    "Developed and maintained automation application for engineering analysis",
+                    "Designed and integrated CI/CD pipelines to improve the application development cycle"
+               ],
+               "tag": ["Python", "SQL",  "Jenkins (CI/CD)", "JIRA", "Git", "RESTful API", "Object Oriented Design", "Adaptable", "Attentive listener", "Critical thinker", "Curious", "Creative", "Detail oriented", "Problem solver", "Resourceful", "Team player", "English"]
+          },
+          {
+               "title": "Automation Engineer",
+               "where": "TDK Headway Technologies",
+               "when": "2017 - 2022",
+               "task": [
+                    "Analyzed process data reports and built data dashboard for production teams",
+                    "Conducted failure analysis and improved fault detection models for manufacturing tools",
+                    "Implemented quality control process systems with engineering teams to improve equipment performance, production capabilities, and manufacturing efficiency",
+                    "Developed, maintained, and improved data collections pipelines ensuring reliable and robust data for engineering teams",
+                    "Researched and designed a prototype application to demonstrate Industrial IoT capabilities in a manufacturing environment"
                ],
                "tag": ["Graphical Programming", "VBA", "SQL",  "Python", "Adaptable", "Attentive listener", "Critical thinker", "Curious", "Creative", "Detail oriented", "Problem solver", "Resourceful", "Team player", "English"]
           },
